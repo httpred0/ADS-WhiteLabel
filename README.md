@@ -1,6 +1,19 @@
-# ADS Light
+# ADS WhiteLabel
 
-**Agentic Design System Shell** — query, theme, render, and verify branded UI from code or an MCP agent, on an accessible component foundation.
+**Agentic Design System Shell** — uma base white-label para consultar, tematizar,
+renderizar e validar interfaces de marca a partir de código ou de um agente MCP.
+
+Este repositório reúne um design system reutilizável construído sobre React,
+ShadCN/Radix UI, Tailwind CSS e Vite. A identidade visual é controlada por
+tokens e arquivos de tema, permitindo adaptar a mesma fundação para diferentes
+clientes sem duplicar componentes.
+
+```bash
+git clone https://github.com/httpred0/ADS-WhiteLabel.git
+cd ADS-WhiteLabel
+npm install
+npm run dev
+```
 
 ADS Light isn't another component library. It's a *shell* around one: a
 machine-readable spec, composition patterns, a live render-and-verify explorer,
